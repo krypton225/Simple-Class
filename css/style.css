@@ -53,6 +53,8 @@ body {
   width: 70%;
   height: 2.5rem;
   padding: 5px 6px;
+  font-size: 1rem;
+  font-weight: bold;
   outline: none;
   border: none;
   border-radius: 6px;
