@@ -19,8 +19,6 @@ window.onload = () => {
   designUI(students);
 };
 
-console.log(students);
-
 // When input is recived a student name.
 mySubmit.addEventListener("click", () => {
   if (myInput.value == "") {
