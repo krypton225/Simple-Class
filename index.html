@@ -10,12 +10,26 @@
 
     <title>Simple Class</title>
 
+    <!-- * Add favicon for site -->
+    <link type="image/png" sizes="16x16" rel="icon" href="images/favicons/icons8-school-16.png">
+    <link type="image/png" sizes="32x32" rel="icon" href="images/favicons/icons8-school-32.png">
+    <link type="image/png" sizes="96x96" rel="icon" href="images/favicons/icons8-school-96.png">
+
+    <!-- * CSS files -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <div class="container">
+        <div class="container__header">
+            <input type="text" name="myName" id="myInput" class="my-input" placeholder="Student name.."
+                autocomplete="off">
+            <input type="submit" value="add student" id="submit" class="btn-submit">
+        </div> <!-- ./container__header -->
+    </div> <!-- ./container -->
+
     <script src="js/script.js"></script>
 </body>
 
