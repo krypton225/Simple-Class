@@ -11,7 +11,7 @@ let students = [
 // When load the window, print in the screen all data name of the students[].
 function designUI(stdsNames) {
   students.forEach(function (items) {
-    containerBody.innerHTML += `${items.studentName}. <br>`;
+    containerBody.innerHTML += `${items.studentName}. <br><br>`;
   });
 }
 
@@ -36,7 +36,7 @@ mySubmit.addEventListener("click", () => {
 
     containerBody.innerHTML += `${
       students[students.length - 1].studentName
-    } <br>`;
+    } <br><br>`;
 
     myInput.value = "";
   }
