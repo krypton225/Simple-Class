@@ -81,10 +81,16 @@ body {
   border-radius: 6px;
   cursor: pointer;
   background-color: var(--green);
-  color: white;
+  color: rgb(36, 36, 36);
   font-size: 0.9rem;
+  font-weight: bold;
   text-transform: capitalize;
   letter-spacing: 1px;
+  transition: opacity 0.3s ease;
+}
+
+.btn-submit:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 660px) {
@@ -93,4 +99,13 @@ body {
     margin-top: 1.4rem;
     text-align: center;
   }
+}
+
+.container__body {
+  width: 100%;
+  margin-top: 2rem;
+  text-align: left;
+  color: var(--beige);
+  font-size: 1.1rem;
+  letter-spacing: 1.3px;
 }
